@@ -299,6 +299,7 @@ small{
 }
 
 #page-main article .content{
+  line-height: 135%;
   font-size: 1.1em;
   overflow: hidden;
 }
@@ -344,20 +345,15 @@ small{
 }
 
 #page-main article .content p,
-#page-main article .content ul,
-#page-main article .content ol,
-#page-main article .content table,
-#page-main article .content dl,
-#page-main article .content address,
-#page-main article .content pre{
-  line-height: 135%;
-}
-
-#page-main article .content p,
 #page-main article .content dl,
 #page-main article .content address,
 #page-main article .content pre{
   max-width: 100%;
+  margin-bottom: 1em;
+}
+
+#page-main article .content ul,
+#page-main article .content ol{
   margin-bottom: 1em;
 }
 
@@ -388,14 +384,15 @@ small{
 #page-main article .content ul li,
 #page-main article .content ol li{
   margin-left: 2.5em;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 
 #page-main article .content ul ul,
 #page-main article .content ul ol,
 #page-main article .content ol ul,
 #page-main article .content ol ol{
-  margin-top: 0.35em;
+  margin-top: .35em;
+  margin-bottom: 0;
 }
 
 #page-main article .content ul ul li,
@@ -403,11 +400,11 @@ small{
 #page-main article .content ol ul li,
 #page-main article .content ol ol li{
   margin-left: 2em;
-  padding-bottom: 0.35em;
+  padding-bottom: .25em;
 }
 
 #page-main article .content blockquote{
-  font-size: 0.9em;
+  font-size: .9em;
   margin-left: 2.5em;
   margin-right: 2.5em;
   color: #888;

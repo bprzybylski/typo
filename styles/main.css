@@ -322,6 +322,13 @@ small{
   color: #573F3A;
 }
 
+#page-main article .content var,
+#page-main article .content acronym,
+#page-main article .content abbr{
+  text-decoration: none;
+  border-bottom: 0.1em dotted #CCC;
+}
+
 #page-main article .content h1{
   font-size: 1.35em;
   margin-bottom: 0.7em;

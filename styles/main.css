@@ -465,10 +465,11 @@ small{
 #page-main article .content tt,
 #page-main article .content code{
   display: inline-block;
-  font-size: 0.8em;
+  font-size: 0.75em;
   color: #555;
-  padding: 0.05em 0.5em;
+  padding: 0 0.3em;
   background: #F4F4F4;
+  border: 0.1em solid #DDD;
 }
 
 #page-main article .content pre{

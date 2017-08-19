@@ -334,7 +334,7 @@ small{
 
 #page-main article .content h3{
   font-size: 1.15em;
-  margin-bottom: 0.9em;
+  margin-bottom: 0.85em;
 }
 
 #page-main article .content h4,
@@ -405,19 +405,19 @@ small{
 
 #page-main article .content blockquote{
   font-size: .9em;
-  margin-left: 2.5em;
-  margin-right: 2.5em;
+  margin-left: 2em;
+  margin-right: 2em;
   color: #888;
   font-style: italic;
 }
 
 #page-main article .content blockquote p{
-  margin-bottom: 1.2em;
+  margin-bottom: 1.15em;
 }
 
 #page-main article .content table{
   margin: 1.5em auto;
-  border-top: 0.15em solid #DDD;
+  border-top: 0.2em solid #DDD;
   border-bottom: 0.2em solid #EEE;
 }
 

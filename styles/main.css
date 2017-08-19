@@ -21,13 +21,13 @@ strong{
 
 sup{
   position: relative;
-  top: -0.35em;
+  top: -0.45em;
   font-size: 80%;
 }
 
 sub{
   position: relative;
-  bottom: -0.35em;
+  bottom: -0.2em;
   font-size: 80%;
 }
 

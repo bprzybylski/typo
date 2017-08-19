@@ -491,6 +491,13 @@ small{
   background: #dfffd8;
 }
 
+#page-main article .content del{
+  text-decoration: line-through;
+  text-decoration: #888 solid line-through;
+  background: #EEE;
+  color: #CCC;
+}
+
 /* positioning */
 
 #page-main article .content .alignleft{

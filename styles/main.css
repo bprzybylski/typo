@@ -486,6 +486,11 @@ small{
   padding-left: 0.75em;
 }
 
+#page-main article .content ins{
+  text-decoration: none;
+  background: #dfffd8;
+}
+
 /* positioning */
 
 #page-main article .content .alignleft{

@@ -1,5 +1,6 @@
 <?php
 load_theme_textdomain('typo');
+add_theme_support('title-tag');
 
 // akcja rejestruje menu 'primary'
 function register_menus() {

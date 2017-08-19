@@ -474,7 +474,9 @@ small{
 
 #page-main article .content pre{
   font-size: 0.8em;
-  overflow-x: scroll;
+  overflow-x: auto;
+  border-left: 1em solid #F4F4F4;
+  padding-left: 0.75em;
 }
 
 /* positioning */

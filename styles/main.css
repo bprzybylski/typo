@@ -481,9 +481,13 @@ small{
 
 #page-main article .content pre{
   font-size: 0.8em;
-  overflow-x: auto;
   border-left: 1em solid #F4F4F4;
   padding-left: 0.75em;
+}
+
+#page-main article .content pre,
+#page-main article .content table{
+  overflow-x: auto;
 }
 
 #page-main article .content ins{

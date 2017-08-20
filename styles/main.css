@@ -267,7 +267,7 @@ small{
 }
 
 #page-main article{
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 
 #page-main article a{
@@ -642,6 +642,7 @@ small{
 
 #page-main article .tags-list{
   line-height: 2em;
+  margin-bottom: 2em;
 }
 
 #page-main article .tags-list a{

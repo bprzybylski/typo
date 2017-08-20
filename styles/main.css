@@ -548,6 +548,18 @@ small{
   margin-bottom: 1.1em;
 }
 
+/* gallery */
+
+#page-main article .content .gallery{
+  margin-bottom: 1em;
+}
+
+#page-main article .content dl dd.gallery-caption{
+  font-size: 0.8em;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
 /* shortcodes */
 
 #page-main article .content .block{

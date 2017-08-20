@@ -557,6 +557,7 @@ small{
   border-radius: 0.65em;
   -moz-border-radius: 0.65em;
   -webkit-border-radius: 0.65em;
+  text-align: left;
 }
 
 #page-main article .content .block.block-info{

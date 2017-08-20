@@ -87,4 +87,25 @@ if ( ! function_exists( 'num_paging_nav' ) ) :
   }
 endif;
 
+/* shortcodes */
+function shortcode_empty_paragraph_fix($content)
+{
+    $array = array (
+        '<p>[' => '[',
+        ']</p>' => ']',
+        ']<br />' => ']'
+    );
+    return strtr($content, $array);
+}
+add_filter('the_content', 'shortcode_empty_paragraph_fix');
+
+function block_gen( $atts, $content = null ){
+  $a = shortcode_atts( array(
+        'type' => 'blank'
+    ), $atts );
+
+	return '<div class="block block-' . esc_attr($a['type']) . '">' . $content . '</div>';
+}
+add_shortcode( 'block', 'block_gen' );
+
 ?>

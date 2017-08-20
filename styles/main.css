@@ -548,6 +548,25 @@ small{
   margin-bottom: 1.1em;
 }
 
+/* shortcodes */
+
+#page-main article .content .block{
+  background: #F4F4F4;
+  margin-bottom: 1em;
+  padding: 1.25em 1.5em;
+  border-radius: 0.65em;
+  -moz-border-radius: 0.65em;
+  -webkit-border-radius: 0.65em;
+}
+
+#page-main article .content .block.block-info{
+  background: #FFF8E2;
+}
+
+#page-main article .content .block.block-warning{
+  background: #ffd3d3;
+}
+
 /* page-main-nav */
 
 #page-main-nav{

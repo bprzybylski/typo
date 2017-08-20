@@ -503,17 +503,23 @@ small{
   color: #CCC;
 }
 
-#page-main article .content a.more-link{
-  text-decoration: none;
-  background: #FFF;
-}
-
 #page-main article .content a.more-link::before{
   content: "";
   display: block;
   height: 0.1em;
   background: #EEE;
   margin: 0.75em 0;
+}
+
+#page-main article .content .page-links{
+  margin-bottom: 1em;
+  border-top: 0.1em solid #EEE;
+  padding-top: 0.75em;
+}
+
+#page-main article .content .page-links a,
+#page-main article .content a.more-link{
+  text-decoration: none;
 }
 
 /* positioning */

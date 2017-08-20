@@ -331,6 +331,11 @@ small{
   border-bottom: 0.1em dotted #CCC;
 }
 
+#page-main article .content acronym:hover,
+#page-main article .content abbr:hover{
+  cursor: help;
+}
+
 #page-main article .content h1{
   font-size: 1.35em;
   margin-bottom: 0.7em;

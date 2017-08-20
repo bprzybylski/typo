@@ -40,6 +40,7 @@ small{
 #page-header,
 #page-main,
 #page-footer{
+  min-width: 15em;
   max-width: 40em;
   margin: 0 auto;
   padding: 0 2.5em;
@@ -592,4 +593,30 @@ small{
 
 #page-footer a:hover{
   color: #666;
+}
+
+/* responsive */
+
+@media all and (max-width: 45em){
+  #page-main,
+  #page-footer{
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+  }
+
+  #page-footer{
+    margin-bottom: 0;
+  }
+}
+
+@media all and (max-width: 30em) {
+  #page-header nav ul ul{
+    display: none;
+  }
+
+  #page-main{
+    padding-left: 1.5em !important;
+    padding-right: 1.5em !important;
+  }
 }

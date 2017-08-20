@@ -48,7 +48,8 @@ small{
 
 #page-header nav > ul::before,
 #page-footer::before,
-#page-main header::after{
+#page-main header::after,
+#page-main-nav::before{
   content: "";
   display: block;
   width: 3em;
@@ -545,6 +546,45 @@ small{
 #page-main article .content .wp-caption-text{
   font-size: 0.9em;
   margin-bottom: 1.1em;
+}
+
+/* page-main-nav */
+
+#page-main-nav{
+  margin-bottom: 1.5em;
+}
+
+#page-main-nav ul{
+  text-align: center;
+  font-size: 0.9em;
+}
+
+#page-main-nav ul li{
+  display: inline-block;
+}
+
+#page-main-nav ul li a{
+  display: inline-block;
+  text-decoration: none;
+  color: #573F3A;
+  line-height: 2em;
+  min-width: 0.5em;
+  padding: 0 0.75em;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  border: 0.05em solid #DDD;
+  -webkit-transition: background 0.3s ease-in-out 0s;
+  transition: background 0.3s ease-in-out 0s;
+  margin-bottom: 0.5em;
+}
+
+#page-main-nav ul li.active a{
+  background: #EEE;
+}
+
+#page-main-nav ul li a:hover{
+  background: #F8F8F8;
 }
 
 /* tag lists */

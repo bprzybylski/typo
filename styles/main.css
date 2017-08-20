@@ -49,7 +49,8 @@ small{
 #page-header nav > ul::before,
 #page-footer::before,
 #page-main header::after,
-#page-main-nav::before{
+#page-main-nav::before,
+#page-main article #comments::before{
   content: "";
   display: block;
   width: 3em;
@@ -560,6 +561,89 @@ small{
   font-size: 0.8em;
   margin-left: 0;
   margin-bottom: 0;
+}
+
+/* comments */
+
+#page-main article #comments::before{
+  margin-top: 0.25em;
+}
+
+#page-main article #comments a{
+  text-decoration: none;
+}
+
+#page-main article #comments ol.comments-list {
+  margin-top: 1.75em;
+  list-style-type: none;
+}
+
+#page-main article #comments ol.comments-list > li{
+  margin-bottom: 1em;
+}
+
+#page-main article #comments li.comment{
+  margin-left: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#page-main article #comments ol.comments-list .comment-body{
+  background: #FFF;
+  font-size: 0.85em;
+  overflow: hidden;
+  border: 0.05em solid #EEE;
+  border-bottom-width: 0.35em;
+  border-right-width: 0.15em;
+  padding: 1em 1.15em 0.25em 1.15em;
+}
+
+#page-main article #comments ol.comments-list .comment-author{
+  font-size: 1.2em;
+}
+
+#page-main article #comments ol.comments-list .comment-author img{
+  display: none;
+}
+
+#page-main article #comments ol.comments-list .comment-meta{
+  font-size: 0.9em;
+  border-bottom: 0.1em solid #EEE;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+#page-main article #comments ol.comments-list .comment-meta a{
+  font-weight: 400;
+}
+
+#page-main article #comments ol.comments-list .comment-body ul,
+#page-main article #comments ol.comments-list .comment-body ol{
+  margin-bottom: 1em;
+}
+
+#page-main article #comments ol.comments-list .comment-body .reply{
+  margin: 0.75em 0;
+  padding-top: 0.75em;
+  border-top: 0.1em solid #EEE;
+}
+
+#page-main article #comments ol.comments-list li.parent .comment-body .reply{
+  margin-bottom: 1.25em;
+}
+
+#page-main article #comments ol.comments-list ul.children{
+  list-style-type: none;
+  margin-left: 2em;
+  margin-top: 0;
+}
+
+#page-main article #comments ol.comments-list ul.children li{
+  margin-top: -0.25em;
+}
+
+#page-main article #comments ol.comments-list ul.children li:first-child{
+  margin-top: -0.75em;
 }
 
 /* shortcodes */

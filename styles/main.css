@@ -553,7 +553,7 @@ small{
 #page-main article .content .block{
   background: #F4F4F4;
   margin-bottom: 1em;
-  padding: 1.25em 1.5em;
+  padding: 1.25em 1.5em 1.35em 1.5em;
   border-radius: 0.65em;
   -moz-border-radius: 0.65em;
   -webkit-border-radius: 0.65em;
@@ -579,6 +579,11 @@ small{
 #page-main article .content .block > table{
   margin-top: 1em;
   margin-bottom: 0;
+}
+
+#page-main article .content .block > ul,
+#page-main article .content .block > ol{
+  margin-bottom: -0.25em;
 }
 
 /* page-main-nav */

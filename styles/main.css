@@ -550,10 +550,6 @@ small{
 
 /* gallery */
 
-#page-main article .content .gallery{
-  margin-bottom: 1em;
-}
-
 #page-main article .content dl dd.gallery-caption{
   font-size: 0.8em;
   margin-left: 0;

@@ -498,8 +498,7 @@ small{
 
 #page-main article .content del{
   text-decoration: line-through;
-  text-decoration: #888 solid line-through;
-  background: #EEE;
+  text-decoration: #BBB solid line-through;
   color: #CCC;
 }
 

@@ -568,6 +568,16 @@ small{
   background: #ffd3d3;
 }
 
+#page-main article .content .block > ul,
+#page-main article .content .block > ol,
+#page-main article .content .block > p,
+#page-main article .content .block > dl,
+#page-main article .content .block > address,
+#page-main article .content .block > table{
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
 /* page-main-nav */
 
 #page-main-nav{

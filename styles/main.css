@@ -50,7 +50,8 @@ small{
 #page-footer::before,
 #page-main header::after,
 #page-main-nav::before,
-#page-main article #comments::before{
+#page-main article #comments::before,
+#page-main article #respond::before{
   content: "";
   display: block;
   width: 3em;

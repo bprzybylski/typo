@@ -12,7 +12,7 @@
 
   <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : ?>
     <nav id="comment-nav-below" class="navigation" role="navigation">
-      <h3 class="assistive-text section-heading"><?php _e( 'Nawigacja wewnątrz komentarzy', 'typo' ); ?></h3>
+      <!-- <h3 class="assistive-text section-heading"><?php _e( 'Nawigacja wewnątrz komentarzy', 'typo' ); ?></h3> -->
       <p><?php previous_comments_link( __( '&larr; Wcześniejsze', 'typo' ) ); ?> <?php next_comments_link( __( 'Późniejsze &rarr;', 'typo' ) ); ?></p>
     </nav>
   <?php endif; ?>

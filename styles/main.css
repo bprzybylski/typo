@@ -80,6 +80,11 @@ small{
   font-family: 'Source Code Pro', monospace;
 }
 
+#page-main article form input,
+#page-main article form textarea{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 /* page-header */
 
 #page-header-container{
@@ -269,7 +274,7 @@ small{
 }
 
 #page-main article{
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 #page-main article a{
@@ -530,6 +535,63 @@ small{
   text-decoration: none;
 }
 
+/* forms */
+
+#page-main article .content form label{
+  color: #888;
+}
+
+#page-main article .content form input,
+#page-main article .content form textarea,
+#page-main article .content form select{
+  font-size: 1em;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 12em;
+  padding: 0.35em 0.6em;
+  border: 0.05em solid #DDD;
+  border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em;
+}
+
+#page-main article .content form textarea{
+  height: 8em;
+}
+
+#page-main article .content form input[type="button"],
+#page-main article .content form input[type="submit"]{
+  font-size: 1em;
+  background: #FFF;
+  color: #888;
+  width: auto;
+  -webkit-transition: background 0.3s ease-in-out 0s;
+  transition: background 0.3s ease-in-out 0s;
+}
+
+#page-main article .content form input[type="button"]:hover,
+#page-main article .content form input[type="submit"]:hover{
+  cursor: pointer;
+  background: #F8F8F8;
+}
+
+#page-main article .content form label input{
+  margin-left: 0.5em;
+}
+
+/* comment-form */
+
+#page-main article .content .comment-form label{
+  display: block;
+  margin-bottom: 0.35em;
+}
+
+#page-main article .content .comment-form input,
+#page-main article .content .comment-form textarea,
+#page-main article .content .comment-form select{
+  width: 25em;
+}
+
 /* positioning */
 
 #page-main article .content .alignleft{
@@ -565,6 +627,10 @@ small{
 }
 
 /* comments */
+
+#page-main #cancel-comment-reply-link{
+  float: right;
+}
 
 #page-main article #comments::before{
   margin-top: 0.25em;

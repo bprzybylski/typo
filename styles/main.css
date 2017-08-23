@@ -88,7 +88,7 @@ small{
 /* page-header */
 
 #page-header-container{
-  background: #C5E5E3;
+  background: #CEF0ED;
   border-bottom: 0.1em solid #EEE;
   padding: 4em 0 8em 0;
 }
@@ -110,9 +110,9 @@ small{
 #page-header h1 a{
   color: #542217;
   color: rgba(84, 34, 23, 0.8);
-  text-shadow: 0.05em 0.1em 0.15em #C5E5E3,
+  text-shadow: 0.05em 0.1em 0.15em #CEF0ED,
                0 0 0 #000,
-               0.05em 0.1em 0.15em #C5E5E3;
+               0.05em 0.1em 0.15em #CEF0ED;
 }
 
 #page-header h1 a:hover{
@@ -734,7 +734,7 @@ small{
 }
 
 #page-main article .content .block.block-info{
-  background: #C5E5E3;
+  background: #CEF0ED;
 }
 
 #page-main article .content .block.block-warning{

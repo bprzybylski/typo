@@ -167,7 +167,12 @@ small{
 }
 
 #page-header nav > ul > li > a:hover::after,
-#page-header nav > ul > li > a.active::after {
+#page-header nav > ul > li.current-menu-item > a::after,
+#page-header nav > ul > li.current-page-item > a::after,
+#page-header nav > ul > li.current_page_item > a::after,
+#page-header nav > ul > li.current-menu-parent > a::after,
+#page-header nav > ul > li.current-page-parent > a::after,
+#page-header nav > ul > li.current_page_parent > a::after {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

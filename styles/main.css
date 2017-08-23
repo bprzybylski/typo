@@ -172,7 +172,8 @@ small{
 #page-header nav > ul > li.current_page_item > a::after,
 #page-header nav > ul > li.current-menu-parent > a::after,
 #page-header nav > ul > li.current-page-parent > a::after,
-#page-header nav > ul > li.current_page_parent > a::after {
+#page-header nav > ul > li.current_page_parent > a::after,
+#page-header nav > ul > li.current-page-ancestor > a::after {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

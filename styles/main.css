@@ -373,7 +373,8 @@ small{
 #page-main article .content p,
 #page-main article .content dl,
 #page-main article .content address,
-#page-main article .content pre{
+#page-main article .content pre,
+#page-main article .content .searchform{
   max-width: 100%;
   margin-bottom: 1em;
 }

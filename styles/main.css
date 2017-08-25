@@ -64,13 +64,9 @@ small{
 }
 
 #page-header nav ul,
-#page-main article header h1{
+#page-main article header h1,
+#page-header{
   font-family: 'Saira Semi Condensed', sans-serif;
-}
-
-#page-header,
-#page-main article header .comments-link{
-  font-family: 'Vesper Libre', serif;
 }
 
 #page-main kbd,
@@ -81,7 +77,8 @@ small{
 }
 
 #page-main article form input,
-#page-main article form textarea{
+#page-main article form textarea,
+#page-main article header .comments-link{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -121,7 +118,7 @@ small{
 }
 
 #page-header h2{
-  margin-top: 0.35em;
+  margin-top: 0.55em;
   font-size: 1.1em;
   font-weight: 400;
   color: #573F3A;

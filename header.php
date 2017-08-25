@@ -12,7 +12,6 @@
       <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
     <![endif]-->
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Vesper+Libre&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&amp;subset=latin-ext" rel="stylesheet">

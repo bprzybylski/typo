@@ -35,6 +35,13 @@ small{
   font-size: 0.9em;
 }
 
+kbd,
+tt,
+code,
+pre{
+  font-family: 'Source Code Pro', monospace;
+}
+
 /* common */
 
 #page-header,
@@ -67,13 +74,6 @@ small{
 #page-main article header h1,
 #page-header{
   font-family: 'Saira Semi Condensed', sans-serif;
-}
-
-#page-main kbd,
-#page-main tt,
-#page-main code,
-#page-main pre{
-  font-family: 'Source Code Pro', monospace;
 }
 
 #page-main article form input,
@@ -495,6 +495,17 @@ small{
   padding: 0 0.3em;
   background: #F4F4F4;
   border: 0.1em solid #DDD;
+}
+
+#page-main article .content a kbd,
+#page-main article .content a tt,
+#page-main article .content a code{
+  display: inline;
+  font-size: 1em;
+  color: inherit;
+  padding: 0;
+  background: transparent;
+  border: none;
 }
 
 #page-main article .content pre{

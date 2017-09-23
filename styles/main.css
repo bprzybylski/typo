@@ -436,6 +436,12 @@ pre{
   font-style: italic;
 }
 
+#page-main article .content li blockquote{
+  margin-top: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 #page-main article .content blockquote p{
   margin-bottom: 1.15em;
 }

@@ -1,4 +1,4 @@
-# New Academic Wordpress Theme
+# Typo Wordpress Theme
 
 This is a simple WordPress theme I made and use as my academic homepage at the Faculty of Mathematics and Computer Science of Adam Mickiewicz University in Poznan. Feel free to download, test and modify it (you may just download the whole repositiory and put it into `wp-content/themes` folder of your WordPress installation). If you notice any problems, let me know, I will try to fix them.
 
